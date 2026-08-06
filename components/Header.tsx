@@ -16,6 +16,7 @@ export default function Header() {
 
         <nav className="hidden items-center gap-6 text-sm font-medium text-gray-300 md:flex">
           <Link href="/" className="hover:text-white">Compare</Link>
+          <Link href="/converter" className="hover:text-white">Converter</Link>
           <Link href="/rate-alerts" className="hover:text-white">Rate Alerts</Link>
           <Link href="/blog" className="hover:text-white">Blog</Link>
           <Link href="/about" className="hover:text-white">About</Link>
@@ -34,6 +35,7 @@ export default function Header() {
         <div className="border-t border-[#27272a] bg-[#181818] md:hidden">
           <nav className="flex flex-col gap-2 px-4 py-4 text-sm font-medium text-gray-300">
             <Link href="/" className="py-2 hover:text-white" onClick={() => setOpen(false)}>Compare</Link>
+            <Link href="/converter" className="py-2 hover:text-white" onClick={() => setOpen(false)}>Converter</Link>
             <Link href="/rate-alerts" className="py-2 hover:text-white" onClick={() => setOpen(false)}>Rate Alerts</Link>
             <Link href="/blog" className="py-2 hover:text-white" onClick={() => setOpen(false)}>Blog</Link>
             <Link href="/about" className="py-2 hover:text-white" onClick={() => setOpen(false)}>About</Link>
