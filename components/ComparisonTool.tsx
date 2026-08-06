@@ -50,7 +50,7 @@ export default function ComparisonTool() {
     <div className="mx-auto max-w-5xl px-4 py-8 md:py-12">
       <div className="mb-8 text-center md:mb-10">
         <h1 className="text-3xl font-bold tracking-tight text-white md:text-4xl">
-          Send money to the Philippines
+          Learn To Transfer — Compare Money Transfers
         </h1>
         <p className="mt-3 text-gray-400">
           Compare fees, exchange rates, and speed — find the best deal in seconds.

@@ -1,7 +1,7 @@
 import CurrencyConverter from "@/components/CurrencyConverter";
 
 export const metadata = {
-  title: "Currency Converter | Send to PH",
+  title: "Currency Converter | Learn To Transfer",
   description:
     "Convert currencies with live exchange rates. Works offline with cached rates. Save your favorite pairs.",
 };

@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Send to PH | Compare Money Transfers to the Philippines",
+  title: "Learn To Transfer | Compare Money Transfers to the Philippines",
   description:
-    "Compare fees, exchange rates, and delivery speed for sending money from the USA to the Philippines. Wise, Remitly, WorldRemit, Western Union, MoneyGram, and Xoom.",
+    "Compare fees, exchange rates, and delivery speed for sending money to the Philippines. Wise, Remitly, WorldRemit, Western Union, MoneyGram, and Xoom.",
 };
 
 export default function RootLayout({

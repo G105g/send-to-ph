@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Blog | Send to PH",
+  title: "Blog | Learn To Transfer",
   description:
     "Guides, tips, and news about sending money to the Philippines cheaply and safely.",
 };
