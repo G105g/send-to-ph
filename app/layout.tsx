@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   title: "Learn To Transfer | Compare Money Transfers to the Philippines",
   description:
     "Compare fees, exchange rates, and delivery speed for sending money to the Philippines. Wise, Remitly, WorldRemit, Western Union, MoneyGram, and Xoom.",
+  other: {
+    "impact-site-verification": "d12f1802-d55a-44f5-9d20-518066f2b074",
+  },
 };
 
 export default function RootLayout({
