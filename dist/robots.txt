@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /go/
+
+Sitemap: https://send-to-ph.vercel.app/sitemap.xml
