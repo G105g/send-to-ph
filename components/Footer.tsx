@@ -15,10 +15,14 @@ export default function Footer() {
             <Link href="/about" className="hover:text-white">About</Link>
           </nav>
         </div>
-        <p className="mt-4 text-center text-xs text-gray-500 md:text-left">
-          Rates and fees are estimates for comparison only. Confirm final pricing on the
-          provider’s website before sending.
-        </p>
+        <div className="mt-4 flex flex-col items-center justify-between gap-2 border-t border-[#27272a] pt-4 text-xs text-gray-500 md:flex-row">
+          <nav className="flex flex-wrap justify-center gap-4">
+            <Link href="/privacy" className="hover:text-white">Privacy Policy</Link>
+            <Link href="/contact" className="hover:text-white">Contact</Link>
+            <Link href="/affiliate-disclosure" className="hover:text-white">Affiliate Disclosure</Link>
+          </nav>
+          <span>Rates and fees are estimates for comparison only.</span>
+        </div>
       </div>
     </footer>
   );
